@@ -196,6 +196,7 @@ Languages that listed a **Package** below are 3rd party languages and are not bu
 | Vala                    | vala                   |         |
 | Verilog                 | verilog, v             |         |
 | Vim Script              | vim                    |         |
+| Volpe                   | vlp                    |         |
 | x86 Assembly            | x86asm                 |         |
 | XL                      | xl, tao                |         |
 | XQuery                  | xquery, xpath, xq      |         |

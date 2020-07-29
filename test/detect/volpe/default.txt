@@ -1,0 +1,33 @@
+true := 1 > 0
+false := !true
+
+str := "hello world"
+arr := [1, 2, 3, 4]
+obj := {key: arr, 'a', true, num: 10.0}
+
+# function
+f := (x) {x + 1}
+
+n := 42
+
+#! multiline
+comment !#
+
+# block
+x := {
+    n > 10 -> f(n - 10)
+    n > 5 -> f(n - 5)
+    n < 0 -> 0
+    n
+}
+
+bool := false || true && false || !false
+
+res := (i) {
+  i > 100 -> "ok"
+  $printf("0123456789"[i % 10])
+  @(i + 1)
+} (0)
+
+imported_func := $std\something\cool
+imported_func(f, x)
